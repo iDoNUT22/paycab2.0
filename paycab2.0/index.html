@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paycab 2.0</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Enhanced Loader -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <div class="wallet-icon">
+                    <i class="fas fa-wallet"></i>
+                </div>
+            </div>
+            <div class="loader-text">Paycab 2.0</div>
+            <div class="loader-progress">
+                <div class="loader-progress-bar"></div>
+            </div>
+            <div class="loader-percentage">Loading...</div>
+            <div class="loader-dots">
+                <div class="loader-dot"></div>
+                <div class="loader-dot"></div>
+                <div class="loader-dot"></div>
+            </div>
+            <button class="get-started-btn" id="get-started-btn">Get Started</button>
+        </div>
+    </div>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-wallet"></i>
+                <span>Paycab 2.0</span>
+            </div>
+            <div class="user-profile">
+                <img src="img/prof.jpg" alt="Profile" class="profile-img">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section class="section hero" id="home">
+            <h1>HEXdev x PayCab Payment & Refund Policy</h1>
+             <p><strong>Downpayment:</strong> 40% minimum before starting the project.</p>
+             <p><strong>Price:</strong> May change based on project complexity; any changes will be agreed on first.</p>
+             <p><strong>Extra Features & Rush:</strong> 
+                 <ul>
+                    <li>Under 70% complete = full downpayment refund.</li>
+                    <li>70% to 80% complete = partial refund or price reduction.</li>
+                    <li>Over 80% complete = no refund.</li>
+                </ul>
+             </p>
+             <p><strong>Scope Changes:</strong> Any changes to the project will result in price and timeline adjustments, which must be agreed on by both parties.</p>
+        </section>
+             <!-- Services Section -->
+        <section class="section" id="services">
+            <h2 class="section-title"><i class="fas fa-desktop"></i> Desktop Development Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>Creating responsive and interactive user interfaces with modern frameworks.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Building robust server-side applications and APIs for your business needs.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">PHP</span>
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Solutions</h3>
+                    <p>Designing and implementing efficient database systems for your applications.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">MySQL</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>System Programming</h3>
+                    <p>Developing high-performance system applications and utilities.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">C++</span>
+                        <span class="tech-badge">Java</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Payment Tab Section -->
+        <section class="section" id="payment-tab">
+            <h2 class="section-title"><i class="fas fa-money-check-alt"></i> Payment Options</h2>
+            <div class="payment-options">
+                <div class="payment-option" id="gcash-option">
+                    <div class="payment-icon">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+                    <h3>Gcash QR</h3>
+                    <p>Scan to pay with Gcash</p>
+                </div>
+                <div class="payment-option" id="maya-option">
+                    <div class="payment-icon">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+                    <h3>Maya QR</h3>
+                    <p>Scan to pay with Maya</p>
+                </div>
+                <div class="payment-option" id="payment-letter-option">
+                    <div class="payment-icon">
+                        <i class="fas fa-file-invoice"></i>
+                    </div>
+                    <h3>Payment Letter</h3>
+                    <p>Download your receipt</p>
+                </div>
+                <div class="payment-option" id="price-list-option">
+                    <div class="payment-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Price List</h3>
+                    <p>Download our price list</p>
+                </div>
+            </div>
+        </section>
+        <!-- Feedback Section -->
+        <section class="section" id="feedback">
+            <h2 class="section-title"><i class="fas fa-comment-dots"></i> Feedback & Rating</h2>
+            <div class="feedback-container">
+                <div class="feedback-instructions">
+                    <i class="fas fa-comment-alt-lines"></i>
+                    <h3>Send Us Your Feedback</h3>
+                    <p>To submit your feedback, please take a screenshot after submitting and send it to our Discord channel.</p>
+                    <button class="discord-button" id="discord-link">
+                        <i class="fab fa-discord"></i> Join Our Discord
+                    </button>
+                </div>
+                <div class="feedback-form">
+                    <div class="form-group">
+                        <label for="feedback-text">Your Feedback</label>
+                        <textarea id="feedback-text" placeholder="Share your experience with us..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Rate Your Experience</label>
+                        <div class="rating" id="rating">
+                            <i class="fas fa-star" data-value="1"></i>
+                            <i class="fas fa-star" data-value="2"></i>
+                            <i class="fas fa-star" data-value="3"></i>
+                            <i class="fas fa-star" data-value="4"></i>
+                            <i class="fas fa-star" data-value="5"></i>
+                        </div>
+                    </div>
+                    <button class="submit-btn" id="submit-feedback">Submit Your Screenshot</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Paycab 2.0</div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#payment-tab">Payments</a>
+                <a href="#feedback">Feedback</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Paycab 2.0. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- Bottom Navigation (Mobile) -->
+    <nav class="bottom-nav">
+        <a href="#home" class="nav-item active">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#services" class="nav-item">
+            <i class="fas fa-desktop"></i>
+            <span>Services</span>
+        </a>
+        <a href="#payment-tab" class="nav-item">
+            <i class="fas fa-money-check-alt"></i>
+            <span>Payments</span>
+        </a>
+        <a href="#feedback" class="nav-item">
+            <i class="fas fa-comment-dots"></i>
+            <span>Feedback</span>
+        </a>
+        <a href="#" class="nav-item profile-nav">
+            <img src="img/prof.jpg" alt="Profile" class="profile-img-nav">
+            <span>Profile</span>
+        </a>
+    </nav>
+    <!-- Modal for screenshot instructions -->
+    <div class="modal" id="screenshot-modal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <i class="fas fa-camera"></i>
+            </div>
+            <h3>Screenshot Required</h3>
+            <p>Please take a screenshot of your feedback and send it to our Discord server to complete your submission.</p>
+            <div class="modal-buttons">
+                <button class="modal-btn secondary" id="cancel-btn">Cancel</button>
+                <button class="modal-btn primary" id="send-discord">Send to Discord</button>
+            </div>
+        </div>
+    </div>
+    <!-- QR Code Modal -->
+    <div class="modal qr-modal" id="qr-modal">
+        <div class="modal-content">
+            <div class="qr-code" id="qr-code-display">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=Paycab%20Payment" alt="QR Code">
+            </div>
+            <h3 id="qr-title">Payment QR Code</h3>
+            <p>Scan this QR code to make your payment</p>
+            <button class="modal-btn secondary" id="close-qr-modal" style="margin-top: 15px;">Close</button>
+        </div>
+    </div>
+    <!-- Payment Letter Modal -->
+    <div class="modal" id="payment-letter-modal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <i class="fas fa-file-invoice"></i>
+            </div>
+            <h3>Payment Letter</h3>
+            <p>Your payment letter is ready for download.</p>
+            <button class="download-btn" id="download-letter">
+                <i class="fas fa-download"></i> Download Payment Letter
+            </button>
+            <button class="modal-btn secondary" id="close-letter-modal" style="margin-top: 15px;">Close</button>
+        </div>
+    </div>
+    <!-- Price List Modal -->
+    <div class="modal" id="price-list-modal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <i class="fas fa-file-pdf"></i>
+            </div>
+            <h3>Price List</h3>
+            <p>Download our complete price list in PDF format.</p>
+            <button class="download-btn" id="download-price-list">
+                <i class="fas fa-download"></i> Download Price List
+            </button>
+            <button class="modal-btn secondary" id="close-price-list-modal" style="margin-top: 15px;">Close</button>
+        </div>
+    </div>
+    <!-- Discord Modal -->
+    <div class="modal discord-modal" id="discord-modal">
+        <div class="modal-content">
+            <div class="discord-logo">
+                <i class="fab fa-discord"></i>
+            </div>
+            <h3>Join Our Discord Server</h3>
+            <p>Connect with our community and get support for your projects.</p>
+            <div class="channel-info">
+                <h4>Our Community Channels</h4>
+                <p><i class="fas fa-hashtag"></i> welcome - welcome channel</p>
+                <p><i class="fas fa-hashtag"></i> Client Task - Client request</p>
+                <p><i class="fas fa-hashtag"></i> payments - Payment inquiries</p>
+                <p><i class="fas fa-hashtag"></i> feedback - Share your thoughts</p>
+            </div>
+            <button class="join-btn" id="join-discord">
+                <i class="fab fa-discord"></i> Join Discord Server
+            </button>
+            <button class="modal-btn secondary" id="close-discord-modal" style="margin-top: 15px;">Close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
